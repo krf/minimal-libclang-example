@@ -10,9 +10,10 @@ $ make
 make test
 ```
 
-Should be print out something along this (note: I stripped some of the completion results):
+Should print out something along this (note: I stripped some of the completion results):
 
 ```
+$ make test
 clang++ -std=c++11 -I /usr/lib/llvm-4.0/include -L/usr/lib/llvm-4.0/lib  -lclang -o libclang_parse main.cpp
 ./libclang_parse test.cpp 7 9 -Wall
 795
