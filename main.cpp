@@ -12,10 +12,10 @@ void printLocation(CXSourceLocation location)
 
 /**
  * Usage:
- *   libclang_test MAIN_FILE LINE COLUMN [COMPILER_OPTS]
+ *   libclang_test.bin MAIN_FILE LINE COLUMN [COMPILER_OPTS]
  *
  * Example:
- *   libclang_test test.cpp 0 0 -std=c++11 -I.
+ *   libclang_test.bin test.cpp 0 0 -std=c++11 -I.
  */
 int main(int argc, char** argv)
 {
